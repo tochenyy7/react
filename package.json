@@ -1,0 +1,19 @@
+{
+  "name": "proj1",
+  "version": "1.0.0",
+  "description": "test proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tochenyy7/react.git"
+  },
+  "author": "Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tochenyy7/react/issues"
+  },
+  "homepage": "https://github.com/tochenyy7/react#readme"
+}
