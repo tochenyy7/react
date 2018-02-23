@@ -4,6 +4,9 @@
   "description": "test proj",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack ./src/index.js ./public/bundle.js",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/tochenyy7/react/issues"
   },
-  "homepage": "https://github.com/tochenyy7/react#readme"
+  "homepage": "https://github.com/tochenyy7/react#readme",
+  "dependencies": {
+    "eslint": "^4.18.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  }
 }
